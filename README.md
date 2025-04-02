@@ -31,7 +31,7 @@ The system follows a layered architecture with clear separation of concerns:
 | Karishini | Rental Processing  | Rental class and services |• Rental creation and modification<br>• Duration calculation<br>• Status management<br>• Selection sort for rental listings |
 | Ashwin | Payment System | Payment class and RentalAgency controller | • Payment processing<br>• Fee calculation<br>• Receipt generation<br>• Financial reporting |
 | Abishek | Agency Management | Agency classes and admin functionality | • System administration<br>• Performance monitoring<br>• User management<br>• Configuration controls |
-| Manusha | Review & Feedback System | Rental and Payment UI components | • Review submission<br>• Feedback collection<br>• Rating calculations<br>• Review moderation |
+| Manusha | Review & Feedback System | Review classes and feedback management | • Review submission<br>• Feedback collection<br>• Rating calculations<br>• Review moderation |
 
 ## Data Structure Implementation
 The project requires the use of custom-implemented linked lists instead of Java's built-in collections:
