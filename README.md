@@ -26,12 +26,12 @@ The system follows a layered architecture with clear separation of concerns:
 
 | Team Member | Responsibility Area | Key Components | Primary Features |
 |-------------|---------------------|----------------|------------------|
-| Shakya | Vehicle Management Backend | Vehicle and VehicleType classes | • Vehicle data management<br>• Vehicle availability tracking<br>• Vehicle categorization<br>• REST endpoints for vehicle operations<br>• **Linked list for vehicle inventory** |
-| Yusuf | Customer Management Backend | Customer class and services | • Customer registration and authentication<br>• Profile management<br>• History tracking<br>• REST endpoints for customer operations<br>• **Linked list for customer records** |
-| Karishini | Rental Processing Backend | Rental class and services | • Rental creation and modification<br>• Duration calculation<br>• Status management<br>• REST endpoints for rental operations<br>• **Linked list for rental tracking** |
-| Ashwin | Payment System & Agency Backend | Payment class and RentalAgency controller | • Payment processing simulation<br>• Fee calculation<br>• Receipt generation<br>• System-wide integration<br>• **Selection sort implementation** |
-| Abishek | Frontend & Vehicle/Customer UI | Vehicle and Customer UI components | • Vehicle browsing interface<br>• Customer registration forms<br>• Profile management UI<br>• Frontend-backend integration<br>• **Display of sorted data** |
-| Manusha | Frontend & Rental/Payment UI | Rental and Payment UI components | • Rental creation interface<br>• Payment processing UI<br>• Administrative dashboard<br>• Frontend-backend integration<br>• **Filtered view implementation** |
+| Shakya | Vehicle Management | Vehicle and VehicleType classes | • CRUD operations for vehicles<br>• Vehicle categorization<br>• Vehicle search functionality<br>• Vehicle availability tracking |
+| Yusuf | Customer Management | Customer class and services | • Customer registration and authentication<br>• Profile management<br>• Customer search functionality<br>• Customer data security |
+| Karishini | Rental Processing  | Rental class and services |• Rental creation and modification<br>• Duration calculation<br>• Status management<br>• Selection sort for rental listings |
+| Ashwin | Payment System | Payment class and RentalAgency controller | • Payment processing<br>• Fee calculation<br>• Receipt generation<br>• Financial reporting |
+| Abishek | Agency Management | Agency classes and admin functionality | • System administration<br>• Performance monitoring<br>• User management<br>• Configuration controls |
+| Manusha | Review & Feedback System | Rental and Payment UI components | • Review submission<br>• Feedback collection<br>• Rating calculations<br>• Review moderation |
 
 ## Data Structure Implementation
 The project requires the use of custom-implemented linked lists instead of Java's built-in collections:
